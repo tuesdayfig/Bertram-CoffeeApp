@@ -1,0 +1,97 @@
+{
+  "test900": [
+    {
+      "timestamp": "2025-04-22 13:05",
+      "coffee": "paid for round",
+      "user": "test900",
+      "participants": {
+        "test900": "Flat White"
+      }
+    },
+    {
+      "timestamp": "2025-04-22 13:23",
+      "coffee": "paid for round",
+      "user": "test900",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino",
+        "user1": "Latte",
+        "123": "Cappuccino"
+      }
+    }
+  ],
+  "test000": [
+    {
+      "timestamp": "2025-04-22 13:05",
+      "coffee": "paid for round",
+      "user": "test000",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino"
+      }
+    },
+    {
+      "timestamp": "2025-04-22 14:49",
+      "coffee": "paid for round",
+      "user": "test000",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino",
+        "user1": "Latte",
+        "1234": "Latte",
+        "123": "Latte"
+      }
+    }
+  ],
+  "user1": [
+    {
+      "timestamp": "2025-04-22 13:07",
+      "coffee": "paid for round",
+      "user": "user1",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino",
+        "user1": "Latte"
+      }
+    },
+    {
+      "timestamp": "2025-04-22 14:56",
+      "coffee": "paid for round",
+      "user": "user1",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino",
+        "user1": "Latte",
+        "1234": "Latte",
+        "123": "Latte"
+      }
+    }
+  ],
+  "123": [
+    {
+      "timestamp": "2025-04-22 13:23",
+      "coffee": "paid for round",
+      "user": "123",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino",
+        "user1": "Latte",
+        "123": "Cappuccino"
+      }
+    }
+  ],
+  "1234": [
+    {
+      "timestamp": "2025-04-22 14:38",
+      "coffee": "paid for round",
+      "user": "1234",
+      "participants": {
+        "test900": "Flat White",
+        "test000": "Cappuccino",
+        "user1": "Latte",
+        "1234": "Latte",
+        "123": "Latte"
+      }
+    }
+  ]
+}

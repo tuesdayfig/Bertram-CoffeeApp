@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Navbar for authenticated users */
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+header a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Main Section */
+main {
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout for the sections */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.col-md-6 {
+    flex: 0 0 48%;
+}
+
+/* Cards for displaying content */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.card-header {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+/* Form elements */
+form {
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Spending History Section */
+.spending-history {
+    font-size: 16px;
+}
+
+/* Table for spending overview */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table td {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}

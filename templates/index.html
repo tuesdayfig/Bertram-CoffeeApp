@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <!-- Today's Coffee Payer -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-info text-white">
+                    Today's Coffee Payer
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">{{ current_payer }} will pay for coffee today!</h4>
+                    <p class="mt-2">
+                        <strong>Round Cost:</strong> ${{ "%.2f"|format(round_cost) }}
+                    </p>
+                    <form
+                        method="POST"
+                        action="{{ url_for('main.round_paid') }}"
+                        onsubmit="this.querySelector('button').disabled = true;"
+                    >
+                        <button class="btn btn-success mt-3" type="submit">Mark Round Paid</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coffee Menu -->
+        <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-light">
+                    Coffee Menu
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {% for coffee, price in coffeeCosts.items() %}
+                            <li><strong>{{ coffee }}:</strong> ${{ price }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spending Summary -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-light">
+                    Total Spent by Each User
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {% for user, amount in user_payments.items() %}
+                            <li class="mb-2">
+                                <strong>{{ user }}</strong>: ${{ "%.2f"|format(amount) }}
+                                {% if users[user].favorite %}
+                                    <br><small class="text-muted">Favorite Coffee: {{ users[user].favorite }}</small>
+                                {% else %}
+                                    <br><small class="text-muted">No Favorite Set</small>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="mt-3 text-muted">
+                        <small>This reflects all purchases from history, including favorites.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

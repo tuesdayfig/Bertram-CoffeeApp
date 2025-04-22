@@ -1,0 +1,32 @@
+{
+  "test900": {
+    "username": "test900",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$aabJ6RaFaTqhyDHaO/Qk8w$0mn4zFMudSPlHoieIEWjPwREnwdPasNbAqrLPTZMQtE",
+    "total_spent": 16.0,
+    "favorite": "Flat White"
+  },
+  "test000": {
+    "username": "test000",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$iiF3mydDYs10GkMGuKa7nQ$SP8mhFk/sY2mzPIFije3MNvtC+JeB6PExdpwLsN4H+A",
+    "total_spent": 23.0,
+    "favorite": "Cappuccino"
+  },
+  "user1": {
+    "username": "user1",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$k4KOBQSP8/7dXJon6m66hA$c/ncn11qLW7H4LpkTBV6ku8Q3F+mT5oL+zRhbP3T9Kw",
+    "total_spent": 26.5,
+    "favorite": "Latte"
+  },
+  "1234": {
+    "username": "1234",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$WM6MGyncs2NrBWifRsm8KA$NBVtpxoelCexXDcsWs0z8n4moi48YzbyE47IRweuc4c",
+    "total_spent": 16.75,
+    "favorite": "Latte"
+  },
+  "123": {
+    "username": "123",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$h7zKLU+x++fUtaBW+7XU0w$M7V1Fbgp6dmzueL0wKGHf1IHe6sFQcjsxmJAF0OVuN4",
+    "total_spent": 0.0,
+    "favorite": "Latte"
+  }
+}
