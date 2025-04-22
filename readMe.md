@@ -82,8 +82,8 @@ This section outlines how to install and run the Bertram Coffee Application loca
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-org/CoffeeApp.git
-   cd CoffeeApp
+   git clone https://github.com/tuesdayfig/Bertram-CoffeeApp.git
+   cd Bertram-CoffeeApp
    ```
 
 2. **Install required dependencies**
