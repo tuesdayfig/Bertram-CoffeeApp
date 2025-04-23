@@ -1,2 +1,8 @@
 {
+  "Bob": {
+    "username": "Bob",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$kOngPWRtO8s5d6yZP9GqaA$qN+xETX7+6+Fs+AU+xC+HKaRYjbN11XtAcuJE/+KSpc",
+    "total_spent": 0.0,
+    "favorite": "Cappuccino"
+  }
 }
