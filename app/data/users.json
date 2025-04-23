@@ -4,5 +4,29 @@
     "password": "$argon2id$v=19$m=65536,t=3,p=4$kOngPWRtO8s5d6yZP9GqaA$qN+xETX7+6+Fs+AU+xC+HKaRYjbN11XtAcuJE/+KSpc",
     "total_spent": 0.0,
     "favorite": "Cappuccino"
+  },
+  "Jeremy": {
+    "username": "Jeremy",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$PGzFwZTD3AvXg+OAWEvuHA$fSv4KJXZyyczszYP54u7ahdjd+PEswJEx7TkpeGy5o4",
+    "total_spent": 0.0,
+    "favorite": "Cold Brew"
+  },
+  "Jenna": {
+    "username": "Jenna",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$8vzpaJk2+iDWgWTkek3bUQ$oLyg7eEU4ve3EeWaIGxjEBEVWRKsnqB045v08ITEmRQ",
+    "total_spent": 0.0,
+    "favorite": "Americano"
+  },
+  "Sara": {
+    "username": "Sara",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$/t/gQ77JwGtAcBYlF5ieHQ$BXjNtPxbY1OmAO8vwXgvgN2vtrLkIuYuInPHeipokPQ",
+    "total_spent": 0.0,
+    "favorite": "Flat White"
+  },
+  "Tuesday": {
+    "username": "Tuesday",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$Rp3iBrPL0VvafeT+alhFpw$c+utrU09cfI2NFxUjJ1csH4fx+7jPk7B5Q6PHctH0ww",
+    "total_spent": 0.0,
+    "favorite": "Mocha"
   }
 }
