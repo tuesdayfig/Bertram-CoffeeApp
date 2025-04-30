@@ -1,32 +1,38 @@
 {
   "Bob": {
     "username": "Bob",
-    "password": "$argon2id$v=19$m=65536,t=3,p=4$kOngPWRtO8s5d6yZP9GqaA$qN+xETX7+6+Fs+AU+xC+HKaRYjbN11XtAcuJE/+KSpc",
-    "total_spent": 0.0,
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$VHmWGBb6Q/kdOMRAGffNxA$+N5uq+ClX8TQodI15Dj97QAIKEkq0HO+JAwDsur0XSI",
+    "total_spent": 29.5,
     "favorite": "Cappuccino"
   },
   "Jeremy": {
     "username": "Jeremy",
-    "password": "$argon2id$v=19$m=65536,t=3,p=4$PGzFwZTD3AvXg+OAWEvuHA$fSv4KJXZyyczszYP54u7ahdjd+PEswJEx7TkpeGy5o4",
-    "total_spent": 0.0,
-    "favorite": "Cold Brew"
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$tIbLjK2o1KDNhHcyTwO2ug$cNQ0uZSjZCfofg4us+oqnDp7jRX6bCamL15WvGVTikI",
+    "total_spent": 17.75,
+    "favorite": "Espresso"
   },
   "Jenna": {
     "username": "Jenna",
-    "password": "$argon2id$v=19$m=65536,t=3,p=4$8vzpaJk2+iDWgWTkek3bUQ$oLyg7eEU4ve3EeWaIGxjEBEVWRKsnqB045v08ITEmRQ",
-    "total_spent": 0.0,
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$1Y9ptiLC0lRV8G4LML4w/w$3v8icyzNe9JnhDxGAgwL68ve5eQFxKSwYa4L8xwgfiU",
+    "total_spent": 14.75,
     "favorite": "Americano"
-  },
-  "Sara": {
-    "username": "Sara",
-    "password": "$argon2id$v=19$m=65536,t=3,p=4$/t/gQ77JwGtAcBYlF5ieHQ$BXjNtPxbY1OmAO8vwXgvgN2vtrLkIuYuInPHeipokPQ",
-    "total_spent": 0.0,
-    "favorite": "Flat White"
   },
   "Tuesday": {
     "username": "Tuesday",
-    "password": "$argon2id$v=19$m=65536,t=3,p=4$Rp3iBrPL0VvafeT+alhFpw$c+utrU09cfI2NFxUjJ1csH4fx+7jPk7B5Q6PHctH0ww",
-    "total_spent": 0.0,
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$BV4GaR1Nk6tK/zI/AVK7AA$PO+9VuJwrZ8zbuX5hLbyxOV89kClNXKmQX8kB9Tw7Ww",
+    "total_spent": 14.75,
     "favorite": "Mocha"
+  },
+  "Sara": {
+    "username": "Sara",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$6clSsHWfM2qFSfIdWWWEAQ$YYDP3mNPeSMziE3Q6geyGF6aYTODd+3/Dx+lfxSV3sQ",
+    "total_spent": 14.75,
+    "favorite": "Flat White"
+  },
+  "Nina": {
+    "username": "Nina",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$AVrLFp5lmJ43ZUQ2DER11g$YrN31q9eBKyA2ZNZAc2V5bMRfhpY8PD8UzAzDKUAnWU",
+    "total_spent": 17.75,
+    "favorite": "Cold Brew"
   }
 }

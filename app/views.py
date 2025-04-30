@@ -44,7 +44,7 @@ def get_user_spending_totals():
             coffee = entry["coffee"]
             #If user paid for round
             if coffee.lower() == "paid for round":
-                #Get participants, if none, default to empty list
+                #Get participants, if none, default to empty dict
                 participants = entry.get("participants", {})
                 #Sum up the participants entries, otherwise default to 0.0
                 round_total = sum(coffee_costs.get(fav, 0.0) for fav in participants.values())
@@ -141,7 +141,7 @@ def register():
     coffee_costs = read_json("app/data/coffee.json", {})
     #Load in registration form
     form = RegistrationForm()
-    #List out available favoritese
+    #List out available favorites
     form.favorite.choices = [(coffee, f"{coffee} - ${price}") for coffee, price in coffee_costs.items()]
 
     #Validate form
@@ -212,7 +212,7 @@ def round_paid():
     #Total costs is summed up by favorites, otherwise default to 0.0
     total_cost = sum(coffee_costs.get(fav, 0.0) for fav in participants.values())
     
-    #If current_payer is not history, init empty dict
+    #If current_payer is not history, init empty list
     if current_payer not in history:
         history[current_payer] = []
         

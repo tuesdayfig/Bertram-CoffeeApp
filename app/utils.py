@@ -43,7 +43,7 @@ def get_coffee_price(coffee_name):
 #Get user_history by user_id
 def get_user_history(user_id):
     history = read_json(HISTORY_FILE, {})
-    #Return history if found, otherwise return blank dict
+    #Return history if found, otherwise return blank list
     return history.get(user_id, [])
 
 #Get favorite coffee based on user_id
@@ -60,15 +60,14 @@ def set_favorite_coffee_for_user(user_id, favorite_coffee):
     #Load in users
     users = load_users()
     #If user_id is found in loaded users
-    if user_id in users:
-        #Grab favorite coffee
-        users[user_id]["favorite"] = favorite_coffee
-        #Save users again with favorite coffee
-        save_users(users)
-        #Return on True
-        return True
-    #Otherwise, return false, cannot set favorite
-    return False
+    try:
+        if user_id in users:
+            #Grab favorite coffee
+            users[user_id]["favorite"] = favorite_coffee
+            #Save users again with favorite coffee
+            save_users(users)
+    except:
+        print("An exception occurred")
 
 #Round logic
 #Get total spent by username
@@ -84,7 +83,7 @@ def get_user_total_spent(username):
 def add_history_entry(user_id, coffee):
     #Read history file
     history = read_json(HISTORY_FILE, {})
-    #If user is not in history, init dict
+    #If user is not in history, init list
     if user_id not in history:
         history[user_id] = []
 

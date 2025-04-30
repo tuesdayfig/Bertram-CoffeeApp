@@ -1,2 +1,85 @@
 {
+  "Bob": [
+    {
+      "timestamp": "2025-04-25 13:40",
+      "coffee": "paid for round",
+      "user": "Bob",
+      "participants": {
+        "Bob": "Cappuccino",
+        "Jeremy": "Espresso",
+        "Jenna": "Americano",
+        "Tuesday": "Mocha",
+        "Sara": "Flat White"
+      }
+    },
+    {
+      "timestamp": "2025-04-25 15:05",
+      "coffee": "paid for round",
+      "user": "Bob",
+      "participants": {
+        "Bob": "Cappuccino",
+        "Jeremy": "Espresso",
+        "Jenna": "Americano",
+        "Tuesday": "Mocha",
+        "Sara": "Flat White"
+      }
+    }
+  ],
+  "Jeremy": [
+    {
+      "timestamp": "2025-04-25 13:40",
+      "coffee": "paid for round",
+      "user": "Jeremy",
+      "participants": {
+        "Bob": "Cappuccino",
+        "Jeremy": "Espresso",
+        "Jenna": "Americano",
+        "Tuesday": "Mocha",
+        "Sara": "Flat White",
+        "Nina": "Cold Brew"
+      }
+    }
+  ],
+  "Jenna": [
+    {
+      "timestamp": "2025-04-25 15:05",
+      "coffee": "paid for round",
+      "user": "Jenna",
+      "participants": {
+        "Bob": "Cappuccino",
+        "Jeremy": "Espresso",
+        "Jenna": "Americano",
+        "Tuesday": "Mocha",
+        "Sara": "Flat White"
+      }
+    }
+  ],
+  "Tuesday": [
+    {
+      "timestamp": "2025-04-25 15:05",
+      "coffee": "paid for round",
+      "user": "Tuesday",
+      "participants": {
+        "Bob": "Cappuccino",
+        "Jeremy": "Espresso",
+        "Jenna": "Americano",
+        "Tuesday": "Mocha",
+        "Sara": "Flat White"
+      }
+    }
+  ],
+  "Sara": [
+    {
+      "timestamp": "2025-04-25 15:05",
+      "coffee": "paid for round",
+      "user": "Sara",
+      "participants": {
+        "Bob": "Cappuccino",
+        "Jeremy": "Espresso",
+        "Jenna": "Americano",
+        "Tuesday": "Mocha",
+        "Sara": "Flat White"
+      }
+    }
+  ]
 }
